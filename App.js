@@ -7,7 +7,6 @@ import { Ionicons } from '@expo/vector-icons';
 import { AppLoading } from 'expo';
 import { render } from 'react-dom';
 import NavMain from './nav/navmain';
-import MeasureButton from './components/floatingbutton';
 
 export default class App extends React.Component {
   constructor(props) {
@@ -35,7 +34,6 @@ render() {
   return (
     <Container>
       <NavMain />
-      <MeasureButton />
     </Container>
   );
 }
