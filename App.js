@@ -1,12 +1,13 @@
 import { StatusBar } from 'expo-status-bar';
 import React from 'react';
-import { StyleSheet, View } from 'react-native';
 import { Container, Header, Content, Text } from 'native-base';
 import * as Font from 'expo-font';
 import { Ionicons } from '@expo/vector-icons';
 import { AppLoading } from 'expo';
 import { render } from 'react-dom';
 import NavMain from './nav/navmain';
+
+const iconbutton = <Image source={require('./img/icons8-unchecked-radio-button-96.png')} />;
 
 export default class App extends React.Component {
   constructor(props) {

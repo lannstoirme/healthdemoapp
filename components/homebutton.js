@@ -1,35 +1,16 @@
-import { FloatingAction } from 'react-native-floating-action';
 import { Platform, StyleSheet, Text, View, Image, Button } from 'react-native';
 import 'react-native-gesture-handler';
 import React, { Component } from 'react';
-import HomeScreen from './../screens/HomeScreen';
-import MeasureScreen from './../screens/MeasureScreen';
-import Stack from './../nav/stacknav';
+import HomeScreen from '../screens/HomeScreen';
+import MeasureScreen from '../screens/MeasureScreen';
+import Stack from '../nav/stacknav';
 import { TouchableOpacity } from 'react-native-gesture-handler';
-const iconbutton = <Image source={require('./../img/icons8-unchecked-radio-button-96.png')} />;
-
-
-FloatingButtonEventNavOne=()=>{
-    this.props.navigation.navigate({MeasureScreen})
-}
+import { iconbutton } from './../App.js';
 
 FloatingButtonEventNavTwo=()=>{
     this.props.navigation.navigate({HomeScreen})
 }
-
-     
-const MeasureFloatButton = ({navigation}) => {
-    return (
-        <View style={styles.container}>
-            <Text style={styles.text}>Measure</Text>
-            <TouchableOpacity activeOpacity={0.5} onPress={this.FloatingButtonEventNavOne}
-            style={styles.TouchabeOpacityStyle} >
-                <Image source={iconbutton} style={styles.FloatingButtonStyle} />
-            </TouchableOpacity>
-
-</View>
-);
-}
+  
 
 const HomeFloatButton = ({navigation}) => {
     return (
@@ -42,7 +23,8 @@ const HomeFloatButton = ({navigation}) => {
         </View>
     );
 }
-            
+
+
 const styles = StyleSheet.create({
     text: {
         fontSize: 20,
@@ -72,4 +54,4 @@ const styles = StyleSheet.create({
     },
 });
 
-export default MeasureButton;
+export default HomeFloatButton;

@@ -1,6 +1,5 @@
 import * as React from 'react';
 import { NavigationContainer } from '@react-navigation/native';
-import { Text, View } from 'react-native';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import { create } from 'react-test-renderer';
 import HomeScreen from './../screens/HomeScreen';

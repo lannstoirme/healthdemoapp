@@ -5,7 +5,7 @@ import HomeScreen from '../screens/HomeScreen';
 import MeasureScreen from '../screens/MeasureScreen';
 import Stack from '../nav/stacknav';
 import { TouchableOpacity } from 'react-native-gesture-handler';
-const iconbutton = <Image source={require('./../img/icons8-unchecked-radio-button-96.png')} />;
+import { iconbutton } from './App';
 
 
 FloatingButtonEventNavOne=()=>{
