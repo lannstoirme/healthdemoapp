@@ -5,7 +5,7 @@ import HomeScreen from '../screens/HomeScreen';
 import MeasureScreen from '../screens/MeasureScreen';
 import Stack from '../nav/stacknav';
 import { TouchableOpacity } from 'react-native-gesture-handler';
-import { iconbutton } from './App';
+import { iconbutton } from './../App.js';
 
 
 FloatingButtonEventNavOne=()=>{
