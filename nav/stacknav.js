@@ -1,6 +1,6 @@
 import { createStackNavigator } from '@react-navigation/stack';
 import { NavigationContainer } from '@react-navigation/native';
-import MeasureScreen from './screens/MeasureScreen';
+import MeasureScreen from './../screens/MeasureScreen';
 import HomeScreen from './../screens/HomeScreen';
 import DoctorScreen from './../screens/DoctorScreen';
 import VitalScreen from './../screens/VitalScreen';
